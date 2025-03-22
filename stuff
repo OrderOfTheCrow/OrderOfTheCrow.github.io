@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Order of the Crow | University of St Andrews</title>
+</head>
+<body onload="checkLogin()">
+    <header>
+        <h1>Order of the Crow</h1>
+        <p>The First Student Branch of the SETI Post-Detection Hub</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#articles">Articles</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="logo-container">
+        <img src="imgs/ootc-logo.jpg" alt="Order of the Crow Logo" class="main-logo">
+        <img src="imgs/uk-srn-logo.png" alt="UK SRN Logo">
+        <img src="imgs/st-andrews-logo.png" alt="St Andrews Logo">
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Order of the Crow (OOTC) is the first and only student branch of the SETI Post-Detection Hub, based at the University of St Andrews.
+        We explore the political, environmental, ethical, and scientific questions of space exploration.</p>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>We host conferences, film screenings, pub quizzes, and student research projects with SETI experts.</p>
+    </section>
+    <section id="articles">
+        <h2>Latest Articles</h2>
+        <p>Stay up to date with our latest research, opinions, and reports on space exploration.</p>
+        <div id="upload-section">
+            <form class="upload-form" action="#" method="post" enctype="multipart/form-data">
+                <label for="file-upload">Upload an Article:</label>
+                <input type="file" id="file-upload" name="file-upload">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Join us for opportunities in research, writing, podcasts, and networking with SETI experts!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: ootc@st-andrews.ac.uk</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Order of the Crow. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

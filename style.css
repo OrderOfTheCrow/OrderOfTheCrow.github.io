@@ -5,7 +5,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url('stars-background.jpg');
+    background-image: url("imgs/background3.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -63,7 +63,7 @@ footer {
 .article {
     margin-top: 2px;
     padding-left: 20px;
-    padding-right: 5px;
+    padding-right: 10px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     display: flex;

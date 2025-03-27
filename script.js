@@ -18,14 +18,17 @@ window.onload = async function populateArticles() {
                 article.style.display = "flex";
                 title.innerText = file.name.split(".")[0];
 
-                article.addEventListener("click", function(){
+                article.addEventListener("click", function(event){
+                    event.preventDefault()
                     const a = document.createElement("a");
                     a.href = file.download_url;
-                    article.appendChild(a);
+                    a.download = file.name;
+                    a.target = "_blank";
+                    document.body.appendChild(a);
                     a.click();
-                    article.removeChild(a);
+                    document.body.removeChild(a);
                 });
-                template.parentNode().appendChild(article);
+                template.parentNode.appendChild(article);
             }
         });
     } catch (error) {

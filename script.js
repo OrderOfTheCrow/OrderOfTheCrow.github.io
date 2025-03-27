@@ -15,6 +15,7 @@ window.onload = async function populateArticles() {
                 let title = article.getElementsByTagName("p")[0];
 
                 article.id = file.name;
+                article.style.display = "flex";
                 title.innerText = file.name.split(".")[0];
 
                 article.addEventListener("click", function(){

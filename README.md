@@ -1,0 +1,3 @@
+- Remove logos
+- Longer text
+- make guide for uploading stuff

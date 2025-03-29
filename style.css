@@ -20,6 +20,7 @@ nav {
     padding: 15px;
 }
 
+
 p a:link {
     color: skyblue;
 }
@@ -38,6 +39,7 @@ nav a {
 }
 nav a:hover {
     color: #a855f7;
+    cursor: pointer;
 }
 section {
     padding: 20px;

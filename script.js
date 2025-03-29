@@ -1,6 +1,6 @@
 const ARTICLE_DIR = "articles";
-const OWNER = "Luca-G17";
-const REPO = "SETI_STA";
+const OWNER = "OrderOfTheCrow";
+const REPO = "OrderOfTheCrow.github.io";
 
 window.onload = async function populateArticles() {
     const articleUrl =  `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ARTICLE_DIR}`;
